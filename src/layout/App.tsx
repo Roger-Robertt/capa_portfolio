@@ -8,7 +8,7 @@ function App() {
       <Sidebar />
 
       <main className='flex-1 flex flex-col justify-center items-center gap-6 
-      bg-[url(src/imgs/4k-minimalist-black-forest-ma3c57wla5k493zj.jpg)] bg-local'>
+      bg-[url("/4k-minimalist-black-forest-ma3c57wla5k493zj.jpg")] bg-local'>
         <Header />
         <Button text="Portfólio" onClick={() => window.open('https://roger-robertt.github.io/Meu-Portifolio-/', '_blank')} />
       </main>
